@@ -11,6 +11,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { RedesSocialesComponent } from './components/redes-sociales/redes-sociales.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RedesSocialesComponent } from './components/redes-sociales/redes-social
     SkillsComponent,
     ProyectosComponent,
     LogoComponent,
-    RedesSocialesComponent
+    RedesSocialesComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
