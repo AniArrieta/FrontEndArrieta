@@ -1,14 +1,15 @@
 :host {
     display: block;
     width: 100%; /* Cambiar el valor según sea necesario */
-    height: 400px; /* Cambiar el valor según sea necesario */
-  }
+    height: 300px; /* Cambiar el valor según sea necesario */
+    background-color: #008080;
+}
 
 .row{
     padding: 10px;
+    top: 500%; /*ver por qué se ve tan abajo*/
 }
 div{
-    background-color: rgb(107, 222, 153);
     text-align: center;
 }
 #nombre{
