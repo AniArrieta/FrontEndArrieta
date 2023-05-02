@@ -7,3 +7,11 @@ div{
 h3, h4{
     display: inline;
 }
+h1,h2{
+    font-family: Philosopher;
+    color: #000;
+}
+h3, p{
+    font-family: Mulish;
+    color: black;
+}

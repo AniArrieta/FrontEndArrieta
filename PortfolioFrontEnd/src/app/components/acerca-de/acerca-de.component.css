@@ -12,6 +12,14 @@
 div{
     text-align: center;
 }
+h1,h2{
+    font-family: Philosopher;
+    color: #000;
+}
+h3, p{
+    font-family: Mulish;
+    color: black;
+}
 #nombre{
     margin-top: 40%;
     font-weight: bold;
