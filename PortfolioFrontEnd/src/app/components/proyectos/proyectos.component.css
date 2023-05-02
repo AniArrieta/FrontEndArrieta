@@ -1,3 +1,15 @@
 div{
-    background-color:#008080;
+    background-color:#D3756B;
+}
+h1,h2{
+    font-family: Philosopher;
+    color: #000;
+}
+h3, p{
+    font-family: Mulish;
+    color: black;
+}
+#fotoLoading{
+    width: 10%;
+    height: 20%;
 }
