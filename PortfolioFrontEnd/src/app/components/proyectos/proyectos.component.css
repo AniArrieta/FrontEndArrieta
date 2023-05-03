@@ -9,7 +9,20 @@ h3, p{
     font-family: Mulish;
     color: black;
 }
-#fotoLoading{
-    width: 10%;
-    height: 20%;
+.row{
+    padding: 20px;
+}
+.contenedor{
+    width: auto;
+}
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+}
+#fotoproyecto1{
+    width: 100%;
+    height: auto;    
+}
+.img-proyecto{
+    box-shadow: 10px 30px 60px #5F264A;
 }
