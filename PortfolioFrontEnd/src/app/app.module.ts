@@ -10,7 +10,6 @@ import { EducacionComponent } from './components/educacion/educacion.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { LogoComponent } from './components/logo/logo.component';
-import { RedesSocialesComponent } from './components/redes-sociales/redes-sociales.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { FooterComponent } from './components/footer/footer.component';
@@ -24,8 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
     EducacionComponent,
     SkillsComponent,
     ProyectosComponent,
-    LogoComponent,
-    RedesSocialesComponent,
+    LogoComponent,    
     BannerComponent,
     FooterComponent
   ],
