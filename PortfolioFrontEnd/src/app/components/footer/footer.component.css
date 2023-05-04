@@ -1,0 +1,10 @@
+.row{
+   background-color: #A75D5D;
+}
+footer{
+    font-family: Mulish;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

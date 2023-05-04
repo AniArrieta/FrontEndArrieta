@@ -43,7 +43,7 @@ h3, p{
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 4px 30px #F99B7D;
         top: 638px;
         left: 33%;
     } 
