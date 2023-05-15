@@ -8,3 +8,8 @@ h1{
     font-family: Philosopher;
     color: #000;
 }
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

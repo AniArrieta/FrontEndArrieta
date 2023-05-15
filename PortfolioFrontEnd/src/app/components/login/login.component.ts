@@ -9,14 +9,15 @@ import { TokenService } from 'src/app/service/token.service';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit{
   isLogged = false;
   isLogginFail = false;
-  loginUsuario: LoginUsuario;
-  nombreUsuario: string;
-  password: string;
+  loginUsuario!: LoginUsuario;
+  nombreUsuario!: string;
+  password!: string;
   roles: string[] = [];
-  errMsj: string;
+  errMsj!: string;
 
   constructor(private tokenService: TokenService, private authService: AuthService, private router: Router) { }
 
@@ -46,4 +47,5 @@ export class LoginComponent implements OnInit{
         
       })
   }
+
 }
